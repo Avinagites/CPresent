@@ -1,0 +1,44 @@
+html, body
+{
+	font-family: "Helvetica-Neue", "HelveticaNeue", "Helvetica", "Verdana", "Arial", sans-serif;
+	font-weight: 100;
+}
+
+.navigation.fixed
+{
+	top:auto;
+	bottom:0;
+}
+
+.row
+{
+	max-width:none;
+}
+
+.sub-nav dd img
+{
+	margin-top:-3px;
+}
+
+.flex-video
+{
+	padding-bottom: 40%;
+	width:80%;
+}
+/*
+.sub-nav dd a
+{
+	padding: 0.1575em 0.5625em;
+}
+*/
+.sub-nav dt.active a, .sub-nav dd.active a
+{
+	font-weight: normal;
+}
+
+.songlist
+{
+	list-style-type: none;
+	height:100%;
+	overflow: scroll-x;
+}
